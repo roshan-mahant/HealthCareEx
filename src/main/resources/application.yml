@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: HealthCareEx
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    password: h14477441
+    url: jdbc:sqlserver://10.230.146.74:1433;databaseName=MGCB_AMANDA;encrypt=true;trustServerCertificate=true
+    username: mahantr
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServer2012Dialect
+    hibernate:
+      ddl-auto: create
+    show-sql: true
