@@ -5,9 +5,9 @@ spring:
     name: HealthCareEx
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    password: h14477441
+    password: Q_NKphLW.)aUT27@6R+vd
     url: jdbc:sqlserver://10.230.146.74:1433;databaseName=MGCB_AMANDA;encrypt=true;trustServerCertificate=true
-    username: mahantr
+    username: AmandaUser
   jpa:
     database-platform: org.hibernate.dialect.SQLServer2012Dialect
     hibernate:
